@@ -8,3 +8,16 @@ useEffect:
 
 Renderização (return): 
      O componente renderiza uma lista de personagens em forma de cartão. Se houver uma mensagem de erro, ela também é exibida.
+
+
+A diferença fundamental entre !! e !:
+     É que !! é usado para converter um valor em um booleano, enquanto ! é usado para negar o valor de uma expressão.
+     
+     Exemplo de Uso:
+          // Usando !! para converter um valor em um booleano
+          let stringValue = "hello";
+          let booleanValue = !!stringValue; // true
+
+          // Usando ! para negar o valor de uma expressão
+          let numberValue = 42;
+          let isFalsy = !numberValue; // false
