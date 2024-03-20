@@ -1,0 +1,10 @@
+useCallback:
+     É usada para memorizar uma função callback e evitar que ela seja recriada em cada renderização, a menos que suas dependências mudem.
+
+     Utilizando useCallback, garantimos que a função getCharacters seja criada apenas uma vez durante a montagem do componente App e, a menos que suas dependências mudem, ela não será recriada nas renderizações subsequentes.
+
+useEffect: 
+    Este efeito é usado para chamar a função getCharacters assim que o componente for montado ou quando getCharacters mudar. Isso garante que os personagens sejam buscados da API no momento certo.
+
+Renderização (return): 
+     O componente renderiza uma lista de personagens em forma de cartão. Se houver uma mensagem de erro, ela também é exibida.

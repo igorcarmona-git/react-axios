@@ -1,0 +1,7 @@
+Run to install:
+    npm i -g npx
+    npx create-react-app react-axios
+    cd react-axios
+    npm i axios
+    npm start
+
